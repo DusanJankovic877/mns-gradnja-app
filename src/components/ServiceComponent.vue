@@ -24,10 +24,19 @@
         </div>
     </div>
 </template>
-<style>
-.malter{
-  border: 1px solid #555555 !important;
-  margin-top: 20px;
-  padding:70px 20px;
+<script>
+export default {
+    data() {
+        return{
+            
+        }
+    },
 }
+</script>
+<style>
+    .malter{
+    border: 1px solid #555555 !important;
+    margin-top: 20px;
+    padding:70px 20px;
+    }
 </style>

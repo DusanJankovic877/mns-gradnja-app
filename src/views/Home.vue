@@ -1,56 +1,51 @@
 <template>
-<div class="home">
-  <div class="col-lg-10 m-auto">
-    <div class="row">
-      <ImageWithContact/>
-    </div>
-    <div class="row">
-        <div class="services col-lg-12">
-          <h2>NAŠE USLUGE</h2>
+  <div class="home">
+    <div class="col-lg-10 m-auto">
+      <div class="row">
+        <ImageWithContact/>
+      </div>
+      <div class="row">
+          <div class="services col-lg-12">
+            <h2>NAŠE USLUGE</h2>
+          </div>
+      </div>
+      <ServiceComponent/> <!-- ROW INSIDE -->
+      <div class="row">
+        <button @click="handleServiceClick" class="more-about-services">
+          <h2>
+            Više o Uslugama
+          </h2>
+        </button>
+      </div>
+      <div class="row">
+            <div class="works col-lg-12">
+            <h2>NAŠE LITERATURE</h2>
         </div>
-    </div>
-    <ServicesComponent/> <!-- ROW INSIDE -->
-  <div class="row">
-    <button @click="handleServiceClick" class="more-about-services">
-      <h2>
-        Više o Uslugama
-      </h2>
-    </button>
-  </div>
-  <div class="row">
-        <div class="works col-lg-12">
-        <h2>NAŠE LITERATURE</h2>
-    </div>
-  </div> 
-  <div class="row">
-    <OurLiteratures/>
-  </div>
-  <div class="row">
-    <button @click="handleLiteraturesClick" class="more-about-literatures"><h2>Više o Poslovima</h2></button>
-  </div>
+      </div> 
+      <div class="row">
+        <OurLiteratures/>
+      </div>
+      <div class="row">
+        <button @click="handleLiteraturesClick" class="more-about-literatures"><h2>Više o Poslovima</h2></button>
+      </div>
+    </div><!--END OF FIRST COL-L-10 M-AUTO  -->
 
-
-
-  </div><!--END OF FIRST COL-L-10 M-AUTO  -->
-  <div class="col-lg-12">
-    <Carousel/>
-  </div>
-  <div class="col-lg-10 m-auto">
-    <div class="row">
-      <ContactForm/>
+    <div class="col-lg-12">
+      <Carousel/>
     </div>
 
-
-  </div><!-- END OF SECOND COL-LG-10 M-AUTO -->
-</div>
-
-
+    <div class="col-lg-10 m-auto">
+      <div class="row">
+        <ContactForm/>
+      </div>
+    </div><!-- END OF SECOND COL-LG-10 M-AUTO -->
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import ImageWithContact from '../components/ImageWithContact'
-import ServicesComponent from '../components/ServicesComponent'
+import ServiceComponent from '../components/ServiceComponent'
 import OurLiteratures from '../components/OurLiteratures'
 import Carousel from '../components/Carousel'
 import ContactForm from '../components/ContactForm'
@@ -58,7 +53,7 @@ export default {
   name: 'Home',
   components: {
   ImageWithContact,
-  ServicesComponent,
+  ServiceComponent,
   OurLiteratures,
   Carousel,
   ContactForm
