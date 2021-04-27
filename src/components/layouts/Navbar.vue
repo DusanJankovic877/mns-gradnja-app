@@ -1,0 +1,33 @@
+<template>
+    <b-navbar class="col-lg-10 m-auto" toggleable="lg" type="light" variant="light" fixed="top">
+        
+    <b-navbar-brand class="nav-brand" href="#">
+      <router-link class="navbar-brand" to="/">NavBar</router-link> 
+
+    </b-navbar-brand>
+
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="ml-auto">
+        <router-link class="nav-link" to="/">Početna</router-link>
+        <router-link class="nav-link" to="/about">O nama</router-link>
+        <router-link class="nav-link" to="/services">Usluge</router-link>
+        <router-link class="nav-link" to="/literatures">Poslovi</router-link>
+        <router-link class="nav-link" to="/contact">Kontakt</router-link>
+      </b-navbar-nav>
+
+ 
+    </b-collapse>
+  </b-navbar>
+</template>
+<style>
+nav{
+    border: 1px solid #555555;
+    padding: 0 20px!important;
+}
+.nav-brand{
+    border-right: 1px solid #555555;
+    padding: 20px 10px !important;
+}
+</style>
