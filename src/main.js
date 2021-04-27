@@ -8,7 +8,14 @@ import router from './router'
 import store from './store'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import * as VueGoogleMaps from 'vue2-google-maps'
 library.add(faFacebook, faInstagram, faLinkedin)
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyA4MPfjeJobL-DARrOdnzW352ibMJkvGFI',
+    libraries: 'places',
+  }
+});
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin

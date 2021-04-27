@@ -2,9 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import AboutUs from '../views/AboutUs.vue'
-// import Services from '../views/Services.vue'
+import Services from '../views/Services.vue'
 import Contact from '../views/Contact.vue'
-// import Literatures from '../views/Literatures.vue'
+import Literatures from '../views/Literatures.vue'
 
 Vue.use(VueRouter)
 
@@ -19,18 +19,18 @@ const routes = [
     name: 'About',
     component: AboutUs
   },
-  // {
-  //   path: '/services',
-  //   name: 'services',
-  //   component: Services
+  {
+    path: '/services',
+    name: 'services',
+    component: Services
 
-  // },
-  // {
-  //   path: '/literatures',
-  //   name: 'literatures',
-  //   component: Literatures
+  },
+  {
+    path: '/literatures',
+    name: 'literatures',
+    component: Literatures
 
-  // },
+  },
   {
     path: '/contact',
     name: 'contact',
