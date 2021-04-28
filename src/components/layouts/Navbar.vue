@@ -2,7 +2,9 @@
     <b-navbar class="col-lg-10 m-auto" toggleable="lg" type="light" variant="light" fixed="top">
         
     <b-navbar-brand class="nav-brand" href="#">
-      <router-link class="navbar-brand" to="/">NavBar</router-link> 
+      <router-link class="navbar-brand" to="/">
+      <img src="../../assets/MNS_logo.png" alt="" style="height:50px; width: 75px;">
+      </router-link> 
 
     </b-navbar-brand>
 
@@ -28,6 +30,6 @@ nav{
 }
 .nav-brand{
     border-right: 1px solid #555555;
-    padding: 20px 10px !important;
+    padding: 15px 10px 20px 10px !important;
 }
 </style>
