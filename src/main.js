@@ -3,6 +3,8 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -10,6 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
 library.add(faFacebook, faInstagram, faLinkedin)
+Vue.use(VueAxios, axios)
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyA4MPfjeJobL-DARrOdnzW352ibMJkvGFI',

@@ -10,7 +10,7 @@
         </div>
         </div>
         <div class="right col-lg-8" >
-        <b-form @submit="onSubmit" v-if="show" class="contact-form col-lg-8">
+        <b-form @submit.prevent v-if="show" class="contact-form col-lg-8">
           <!-- NAME -->
             <b-form-group id="input-name" label="Vaše Ime:" label-for="input-name">
               <b-form-input id="input-name" v-model="form.name" placeholder="Petar" required></b-form-input>
@@ -20,21 +20,33 @@
               <!-- EMAIL -->
               <b-form-group id="input-email" label="Email adresa:" label-for="input-email">
                 <b-form-input id="input-email" v-model="form.email" type="email" placeholder="petar@gmail.com"  required></b-form-input>
+                <div class="alert alert-danger" role="alert" v-if="errors.email.length">
+                  {{errors.email}}
+                </div>
+                <div v-else></div>
               </b-form-group>
             </div>
             <!-- TELEPHONE -->
             <div class="col-lg-6">
               <b-form-group id="input-telephone"  label="Telefon:" label-for="input-telephone">
                 <b-form-input id="input-telephone" v-model="form.telephone" type="telephone" placeholder="+38163123456" required></b-form-input>
+                <div class="alert alert-danger" role="alert" v-if="errors.telephone.length">
+                  {{errors.telephone}}
+                </div>
+                <div v-else></div>
               </b-form-group>
             </div>
           </div>
           <b-form-group id="input-message" label="Poruka:" label-for="input-message">
             <b-form-textarea id="input-message" v-model="form.message" rows="3"  placeholder="Unesite poruku" required></b-form-textarea>
+          <div class="alert alert-danger" role="alert" v-if="errors.message.length">
+            {{errors.message}}
+          </div>
+          <div v-else></div>
           </b-form-group>
           <div class="col-lg-12 ">
             <div class="row">
-              <b-button class="contact-form-button ml-auto" type="submit">Pošaljite</b-button>
+              <b-button class="contact-form-button ml-auto" @click="handleSubmit">Pošaljite</b-button>
             </div>
           </div>
         </b-form>
@@ -43,6 +55,7 @@
     </div>  
 </template>
 <script>
+import { mapActions } from 'vuex'
 export default {
     data() {
        return{
@@ -52,13 +65,50 @@ export default {
             telephone: '',
             message: ''
         },
-        show: true
+        show: true,
+        errors: {
+          email:'',            
+          name: '',
+          telephone: '',
+          message: ''
+        }
        } 
     },
     methods: {
-        onSubmit(event) {
-            event.preventDefault()
-            alert(JSON.stringify(this.form))
+      ...mapActions(['getContactFormData']),
+       async handleSubmit() {
+          await this.getContactFormData(this.form).then(response => {
+        if(response){
+        
+         this.errors.email = '';
+         this.errors.name = '';
+         this.errors.message = '';
+         this.errors.telephone = '';
+         }
+          }).catch(error => {
+
+            if(error.response.data.errors.email != undefined){
+              this.errors.email = error.response.data.errors.email[0]
+            }
+            else{
+            this.errors.email = '';
+            }
+            if(!this.form.name){
+              this.errors.name = error.response.data.errors.name[0];
+            }else{
+              this.errors.name = '';
+            }
+            if(!this.form.message){
+              this.errors.message = error.response.data.errors.message[0];
+            }else{
+              this.errors.message = '';
+            }
+            if(!this.form.telephone){
+              this.errors.telephone = error.response.data.errors.telephone[0];
+            }else{
+              this.errors.telephone = '';
+            }
+          })
         }
     }
 }
