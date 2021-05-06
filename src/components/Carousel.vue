@@ -46,6 +46,9 @@ export default {
 }
 </script>
 <style>
+#carousel-1{
+  margin-bottom: 25px !important;
+}
 .carousel-inner{
     max-height: 800px !important;
 
