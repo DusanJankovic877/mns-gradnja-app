@@ -14,6 +14,10 @@
           <!-- NAME -->
             <b-form-group id="input-name" label="Vaše Ime:" label-for="input-name">
               <b-form-input id="input-name" v-model="form.name" placeholder="Petar" required></b-form-input>
+              <div class="alert alert-danger" role="alert" v-if="errors.name.length">
+                {{errors.name}}
+              </div>
+              <div v-else></div>
             </b-form-group>
           <div class="row">
             <div class="col-lg-6">
@@ -157,6 +161,22 @@ form{
     padding-left: 0px !important;
  
 }
+}
+@media only screen and (max-width: 769px) {
+  form{
+  margin-left:0px;
+}
+    .image-card {
+      width: 400px !important;
+        top:4%;
+    left:4%;
+    padding: 0!important;
+    /* position: relative !important; */
+  }
+  .text{
+    padding: 2px 2px 2px 10px!important;
+
+  }
 }
 @media only screen and (max-width: 600px) {
 form{

@@ -35,6 +35,7 @@ export default {
 .image-container{
     position: relative;
     display: inline-block;
+    margin-top: 20px;
 }
 .image-card{
     /* font-family: 'Barlow-Regular', sans-serif; */
@@ -69,13 +70,19 @@ export default {
   color:white !important;
   background-color: rgb(86, 93, 100) !important;
 }
-@media only screen and (max-width: 1025) {
+@media screen and (max-width: 1025) {
     .image-card {
       width: 400px !important;
         top:0%;
     left:0%;
     position: static !important;
   }
+  .text{
+    padding: 0 !important;
+  }
+
+
+
 }
 @media only screen and (max-width: 600px) {
   .image-card {
