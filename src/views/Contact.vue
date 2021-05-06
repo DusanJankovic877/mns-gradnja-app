@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="space-above-view">
         <div class="col-lg-10 m-auto">
             <div class="row">
                 <div class="text-div col-lg-12">

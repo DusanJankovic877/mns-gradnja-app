@@ -118,75 +118,65 @@ export default {
 }
 </script>
 <style>
-.form{
-  margin-top: 20px !important;
-  border: 1px solid #555555;
-}
-.left{
+  .form{
+    margin-top: 20px !important;
+    border: 1px solid #555555;
+  }
+  .left{
     border-right: 1px solid #555555;
     padding-top: 50px;
     padding-left: 100px !important;
     text-align: left;
-}
-.right{
+  }
+  .right{
     padding: 50px 0px 0px 300px;
-  
-}
-.contact-form input, textarea{
-  border-radius: 0 !important;
-  border: none !important;
-  border-bottom: 1px solid #555555 !important;
-}
-form{
-  margin-left: 150px;
-}
-
-
-.contact-form-button{
-  background-color: #C9C9C9;
-  border: none !important;
-  color:#5E5E5E;
-}
-.contact-form-button:hover {
-  background-color: black;
-  border: none !important;
-}
+    
+  }
+  .contact-form input, textarea{
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid #555555 !important;
+  }
+  form{
+    margin-left: 150px;
+  }
+  .contact-form-button{
+    background-color: #C9C9C9;
+    border: none !important;
+    color:#5E5E5E;
+  }
+  .contact-form-button:hover {
+    background-color: black;
+    border: none !important;
+  }
 @media only screen and (max-width: 1024px) {
   form{
-  margin-left:60px;
-}
-.left{
-   
-    padding-top: 50px;
+    margin-left:60px;
+  }
+  .left{
+    padding: 50px;
     padding-left: 0px !important;
- 
-}
+  }
 }
 @media only screen and (max-width: 769px) {
   form{
-  margin-left:0px;
-}
-    .image-card {
-      width: 400px !important;
-        top:4%;
-    left:4%;
-    padding: 0!important;
-    /* position: relative !important; */
+    margin-left:0px;
+  }
+  .image-card {
+      top:4%;
+      left:4%;
   }
   .text{
     padding: 2px 2px 2px 10px!important;
-
   }
 }
 @media only screen and (max-width: 600px) {
-form{
-  margin-left:00px;
-}
-.left{
-  
+  form{
+    margin-left:00px;
+  }
+  .left{
     padding-top: 50px;
     padding-left: 0px !important;
-
-}
+  }
 }
 </style>

@@ -15,7 +15,7 @@ library.add(faFacebook, faInstagram, faLinkedin)
 Vue.use(VueAxios, axios)
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyA4MPfjeJobL-DARrOdnzW352ibMJkvGFI',
+    key: 'AIzaSyB8U3OpuwW__lDL28LwPbk2jrDqnbG4eiE',
     libraries: 'places',
   }
 });

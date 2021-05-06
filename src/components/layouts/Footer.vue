@@ -46,6 +46,9 @@ footer{
 .logo-footer{
     margin: auto;
 }
+ul{
+  margin-top: 10px !important;
+}
 ul li{
   list-style: none;
 }

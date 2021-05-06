@@ -9,7 +9,7 @@
             <h2>NAŠE USLUGE</h2>
           </div>
       </div>
-      <ServiceComponent/> <!-- ROW INSIDE -->
+      <ServiceComponent style="margin-top:50px;"/> <!-- ROW INSIDE -->
       <div class="row">
         <button @click="handleServiceClick" class="more-about-services">
           <h2>

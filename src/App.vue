@@ -32,12 +32,14 @@ export default {
   color: #2c3e50;
 }
 .view{
-  margin-top:100px !important;
+  margin-top:115px !important;
 }
 button{
   border-radius: 0 !important;
   border: none;
   font-family: "Barlow-Regular";
 }
-
+.space-above-view{
+  margin-top: 190px !important;
+}
 </style>
