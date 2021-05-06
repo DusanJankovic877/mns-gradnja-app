@@ -34,7 +34,7 @@
   }
   .nav-link{
     padding: 0 15px !important;
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 12px;
   }
 @media only screen and (max-width: 769px) {

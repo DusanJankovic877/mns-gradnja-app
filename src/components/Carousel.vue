@@ -59,4 +59,19 @@ export default {
   height: 90px !important;
   width: 90px !important;
 }
+@media only screen and (max-width: 769px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 60px !important;
+    width: 60px !important;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
+
 </style>

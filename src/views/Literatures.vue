@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="liteartures-heading col-lg-12">
                     <h1>GRADITELJI</h1>
-                    <p>Možete se osloniti na nas</p>
+                    <h4>Možete se osloniti na nas</h4>
                 </div>
                 <OurLiteratures/>
             </div>
@@ -24,5 +24,6 @@ export default {
 .liteartures-heading{
     border: 1px solid #555555;
     padding: 50px;
+    margin-bottom: 80px !important;
 }
 </style>

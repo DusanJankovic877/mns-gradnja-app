@@ -4,7 +4,7 @@
              <div class="row">
                 <div class="services-heading col-lg-12">
                     <h1>NAŠE USLUGE</h1>
-                    <p>Mns Gradnja Bau GmbH nudi širok spektar usluga</p>
+                    <h4>Mns Gradnja Bau GmbH nudi širok spektar usluga</h4>
                 </div>
 
              </div>
@@ -31,7 +31,7 @@ export default {
 .services-heading{
     border: 1px solid #555555;
     padding: 50px;
-    margin-bottom: 20px !important;
+    margin-bottom: 80px !important;
 }
 
 </style>

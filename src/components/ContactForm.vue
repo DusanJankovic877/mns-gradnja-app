@@ -119,7 +119,6 @@ export default {
 </script>
 <style>
   .form{
-    margin-top: 20px !important;
     border: 1px solid #555555;
   }
   .left{

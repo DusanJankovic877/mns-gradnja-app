@@ -62,7 +62,7 @@ export default {
     border: none !important;
     color:#565656 !important;
     text-align: left !important;
-    padding-left: 20px !important;
+    padding-left: 39px !important;
     font-size: 20px !important;
 }
 
@@ -77,12 +77,20 @@ export default {
     left:0%;
     position: static !important;
   }
+
   .text{
     padding: 0 !important;
   }
 
 
 
+}
+@media only screen and (max-width: 769px) {
+  .image-contact-button{
+
+    padding-left: 10px !important;
+
+  }
 }
 @media only screen and (max-width: 600px) {
   .image-card {

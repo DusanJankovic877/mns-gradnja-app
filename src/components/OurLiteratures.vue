@@ -1,5 +1,5 @@
 <template>
-    <div class="col-lg-4 work mt-4">
+    <div class="col-lg-4 work">
       <div class="image-work">
           <b-img class="img-work" src="bridge.png" alt=""></b-img>
       </div>

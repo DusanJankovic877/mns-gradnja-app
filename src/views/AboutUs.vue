@@ -1,8 +1,9 @@
 <template>
 <div class="space-above-view col-lg-10  ml-auto  mr-auto" >
   <div class="row ">
-    <div class="about-us-heading">
-      <h1>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno. M-NS GRADNJA</h1>
+    <div class="about-us-heading col-lg-12">
+      <h1>MNS GRADNJA</h1>
+      <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
     </div>
       </div>
   <div class="row">
@@ -38,7 +39,8 @@
 
 .about-us-heading{
       border: 1px solid #555555;
-      padding: 25px;
+      padding: 50px;
+      margin-bottom: 80px !important;
 }
 .about-us-content{
   text-align: left;
@@ -49,7 +51,6 @@
   list-style-type: disc;
 }
 .about-us-content h3{
-  margin-top: 100px;
   margin-bottom: 50px ;
 }
 </style>
