@@ -120,6 +120,7 @@ export default {
 <style>
   .form{
     border: 1px solid #555555;
+    padding-bottom: 25px;
   }
   .left{
     border-right: 1px solid #555555;
@@ -151,6 +152,7 @@ export default {
 @media only screen and (max-width: 1024px) {
   form{
     margin-left:60px;
+    
   }
   .left{
     padding: 50px;
