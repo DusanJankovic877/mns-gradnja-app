@@ -45,15 +45,29 @@ button{
 }
 /* TRANSITION */
 .fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
+  transition: opacity .5s ease-in-out, transform .5s ease;
 }
+
 .fade-enter-active{
   transition-delay: .5s;
+  
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+.fade-enter{
   opacity: 0;
+transform: translateX(150px);
 }
-.fade-enter-to, .fade-leave {
+.fade-enter-to{
   opacity: 1;
+  transform: translateX(0px);
+}
+.fade-leave{
+  opacity: 1;
+  transform: translateX(0px);
+
+}
+
+.fade-leave-to{
+    opacity: 0;
+  transform: translateX(-150px);
 }
 </style>
