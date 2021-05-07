@@ -1,5 +1,5 @@
 <template>
-<div class="space-above-view col-lg-10  ml-auto  mr-auto" >
+<div class="space-above-view col-lg-10  ml-auto  mr-auto">
   <div class="row ">
     <div class="about-us-heading col-lg-12">
       <h1>MNS GRADNJA</h1>

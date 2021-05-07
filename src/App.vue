@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Navbar class=""/>
-    <router-view class="view"/>
+    <transition name="fade">
+      <router-view class="view-1"/>
+    </transition>
     <Footer/>
   </div>
 </template>
@@ -12,10 +14,8 @@ export default {
   components:{
     Navbar,
     Footer
-  },
-  data() {
-    return{}
-  },
+  }
+
 }
 </script>
 <style>
@@ -31,7 +31,7 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-.view{
+.view-1{
   margin-top:115px !important;
 }
 button{
@@ -42,5 +42,18 @@ button{
 .space-above-view{
   margin-top: 190px !important;
 
+}
+/* TRANSITION */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter-active{
+  transition-delay: .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+.fade-enter-to, .fade-leave {
+  opacity: 1;
 }
 </style>
