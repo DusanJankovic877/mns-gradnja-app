@@ -12,14 +12,7 @@
             <div class="row">
                 <ContactForm/>
             </div>
-            <div class="row">
-                <GmapMap
-                    class="col-lg-12"
-                    :center='center'
-                    :zoom='12'
-                    style='margin-top: 20px !important; height: 600px;'
-                />
-            </div>
+
         </div>
     </div>
 </template>
@@ -29,12 +22,7 @@
     export default {
         components:{
             ContactForm
-        },
-        data() {
-            return {
-                center: { lat: 45.508, lng: -73.587 },
-            }
-        },
+        }
     }
 </script>
 <style>
