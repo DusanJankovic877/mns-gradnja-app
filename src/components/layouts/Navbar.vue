@@ -13,7 +13,6 @@
         <router-link class="nav-link" to="/">Početna</router-link>
         <router-link class="nav-link" to="/about">O nama</router-link>
         <router-link class="nav-link" to="/services">Usluge</router-link>
-        <router-link class="nav-link" to="/literatures">Poslovi</router-link>
         <router-link class="nav-link" to="/contact">Kontakt</router-link>
       </b-navbar-nav>
 

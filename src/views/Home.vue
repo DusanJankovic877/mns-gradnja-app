@@ -18,14 +18,6 @@
         </button>
       </div>
       <div class="row">
-            <div class="works col-lg-12">
-            <h2>NAŠE LITERATURE</h2>
-        </div>
-      </div> 
-      <div class="row">
-        <OurLiteratures/>
-      </div>
-      <div class="row">
         <button @click="handleLiteraturesClick" class="more-about-literatures"><h2>Više o Poslovima</h2></button>
       </div>
     </div><!--END OF FIRST COL-L-10 M-AUTO  -->
@@ -46,7 +38,6 @@
 // @ is an alias to /src
 import ImageWithContact from '../components/ImageWithContact'
 import ServiceComponent from '../components/ServiceComponent'
-import OurLiteratures from '../components/OurLiteratures'
 import Carousel from '../components/Carousel'
 import ContactForm from '../components/ContactForm'
 export default {
@@ -54,7 +45,6 @@ export default {
   components: {
   ImageWithContact,
   ServiceComponent,
-  OurLiteratures,
   Carousel,
   ContactForm
   },

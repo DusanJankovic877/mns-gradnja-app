@@ -7,7 +7,7 @@
               <div class="row">
               <img class="logo-footer" src="../../assets/MNS_logo.png" alt="" style="height:50px; width: 75px;">
               <ul>
-                <li>AR Akkord Bau GmbH </li>
+                <li>M-NS Gradnja </li>
                 <li>Rainweg 5</li>
                 <li>8852 Altendorf</li>
                 <li>info@ar-akkord.ch</li>
