@@ -2,13 +2,13 @@
 <div class="space-above-view col-lg-10  ml-auto  mr-auto">
   <div class="row ">
     <div class="about-us-heading col-lg-12">
-      <h1>MNS GRADNJA</h1>
-      <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
+      <h1>O NAMA</h1>
+      <h4>Vaš jak i kompetentan partner u građevinarstvu</h4>
     </div>
       </div>
   <div class="row">
       <div class="about-us-content col-lg-12">
-        <h3>MNS-GRADNJA</h3>
+        <h3>MNS-GRADNJA DOO</h3>
         <p>Naš tim opisuje profesionalna usluga i zagarantovan kvalitet.</p>
         <p>Pouzdani smo partneri u malim kao i velikim projektima.</p>
         <p>Vršimo usluge svih završnih građevinskih radova u dogovorenom roku.</p>

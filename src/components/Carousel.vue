@@ -4,7 +4,7 @@
         id="carousel-1"
         v-model="slide"
         :interval="4000"
-        :fade="fade"
+        fade
         controls
         indicators
         background="#ababab"
@@ -14,15 +14,20 @@
     >
         <!-- Text slides with image -->
         <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
-        ></b-carousel-slide>
+          caption="MNS GRADNJA DOO"
+          img-src="https://picsum.photos/1024/480/?image=52"
+        >
+        <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
+        </b-carousel-slide>
 
         <!-- Slides with custom text -->
-        <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
-        <h1>Hello world!</h1>
+        <b-carousel-slide
+          caption="MNS GRADNJA DOO"
+          img-src="https://picsum.photos/1024/480/?image=54"
+        >
+          <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
         </b-carousel-slide>
+
     </b-carousel>
 </template>
 <script>
@@ -30,8 +35,7 @@ export default {
     data() {
     return{
         slide: 0,
-        sliding: null,
-        fade: true
+        sliding: null
     } 
     },
       methods:{
@@ -46,6 +50,9 @@ export default {
 }
 </script>
 <style>
+.carousel-caption h4{
+  font-size: 20px;
+}
 #carousel-1{
   margin-bottom: 25px !important;
 }

@@ -5,7 +5,7 @@
                 <div class="text-div col-lg-12">
                         <h1>KONTAKTIRAJTE NAS</h1>
                         <h4>
-                            Za upite, koristite naš kontakt obrazac ili nas pozovite direktno na +41 79 700 49 24
+                            Za upite, koristite naš kontakt obrazac ili nas pozovite direktno na +381 63 78 70 551
                         </h4>
                 </div>
             </div>

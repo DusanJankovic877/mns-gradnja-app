@@ -4,7 +4,7 @@
              <div class="row">
                 <div class="services-heading col-lg-12">
                     <h1>NAŠE USLUGE</h1>
-                    <h4>Mns Gradnja Bau GmbH nudi širok spektar usluga</h4>
+                    <h4>Mns Gradnja DOO nudi širok spektar usluga</h4>
                 </div>
 
              </div>

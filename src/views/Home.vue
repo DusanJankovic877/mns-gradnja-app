@@ -17,9 +17,6 @@
           </h2>
         </button>
       </div>
-      <div class="row">
-        <button @click="handleLiteraturesClick" class="more-about-literatures"><h2>Više o Poslovima</h2></button>
-      </div>
     </div><!--END OF FIRST COL-L-10 M-AUTO  -->
 
     <div class="col-lg-12">
@@ -56,11 +53,7 @@ export default {
   methods:{
     handleServiceClick(){
       this.$router.push('/services');
-    },
-    handleLiteraturesClick(){
-      this.$router.push('/literatures');
     }
-
   }
 }
 </script>

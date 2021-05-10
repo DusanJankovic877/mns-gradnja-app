@@ -7,11 +7,11 @@
               <div class="row">
               <img class="logo-footer" src="../../assets/MNS_logo.png" alt="" style="height:50px; width: 75px;">
               <ul>
-                <li>M-NS Gradnja </li>
-                <li>Rainweg 5</li>
-                <li>8852 Altendorf</li>
-                <li>info@ar-akkord.ch</li>
-                <li>+41 79 700 49 24</li>
+                <li>M-NS Gradnja DOO</li>
+                <li>Alekse Šantića</li>
+                <li>21000 Novi Sad</li>
+                <li>m.ns.gradnja@gmail.com</li>
+                <li>+381 63 78 70 551</li>
               </ul>
               </div>
             </div>
