@@ -149,6 +149,7 @@ export default {
     background-color: #C9C9C9;
     border: none !important;
     color:#5E5E5E;
+    margin-bottom: 25px;
   }
   .contact-form-button:hover {
     background-color: black;
@@ -156,6 +157,17 @@ export default {
   }
   .contact-text p{
     margin: 2px 0;
+  }
+@media only screen and (max-width: 1272px) {
+    .left{
+      padding: 30px !important;
+      /* padding: 0px !important; */
+      
+    }
+    .form{
+      
+      padding-bottom: 0;
+    }
   }
 @media only screen and (max-width: 1024px) {
   form{

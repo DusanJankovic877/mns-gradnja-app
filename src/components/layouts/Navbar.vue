@@ -78,5 +78,8 @@ export default {
   .nav-brand{
     border-right: none;
   }
+  nav{
+    top: 0 !important;
+  }
 }
 </style>
