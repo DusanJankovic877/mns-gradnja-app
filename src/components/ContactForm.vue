@@ -18,7 +18,7 @@
         <b-form @submit.prevent v-if="show" class="contact-form col-lg-8">
           <!-- NAME -->
             <b-form-group id="input-name" label="Vaše Ime:" label-for="input-name">
-              <b-form-input id="input-name" v-model="form.name" placeholder="Petar" required></b-form-input>
+              <b-form-input id="input-name" v-model="form.name" type="text" placeholder="Petar" required></b-form-input>
               <div class="alert alert-danger" role="alert" v-if="errors.name.length">
                 {{errors.name}}
               </div>
@@ -38,7 +38,7 @@
             <!-- TELEPHONE -->
             <div class="col-lg-6">
               <b-form-group id="input-telephone"  label="Telefon:" label-for="input-telephone">
-                <b-form-input id="input-telephone" v-model="form.telephone" type="telephone" placeholder="+38163123456" required></b-form-input>
+                <b-form-input id="input-telephone" v-model="form.telephone" type="text" placeholder="+38163123456" required></b-form-input>
                 <div class="alert alert-danger" role="alert" v-if="errors.telephone.length">
                   {{errors.telephone}}
                 </div>

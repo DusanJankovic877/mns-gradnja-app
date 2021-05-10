@@ -1,5 +1,6 @@
 <template>
-    <b-navbar class="col-lg-10 m-auto" toggleable="lg" type="light" fixed="top">
+
+    <b-navbar :class="{ 'navbar--hidden': !showNavbar }" class="col-lg-10 m-auto" toggleable="lg" type="light" fixed="top">
     <b-navbar-brand class="nav-brand" href="#">
       <router-link class="navbar-brand" to="/">
       <img src="../../assets/MNS_logo.png" alt="" style="height:50px; width: 75px;">
@@ -20,12 +21,49 @@
     </b-collapse>
   </b-navbar>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      showNavbar: true,
+      lastScrollPosition: 0
+    }
+  },
+  methods:{
+    onScroll () {
+      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
+      if (currentScrollPosition < 0) {
+        return
+      }
+      // Stop executing this function if the difference between
+      // current scroll position and last scroll position is less than some offset
+      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 400) {
+        return
+      }
+      this.showNavbar = currentScrollPosition < this.lastScrollPosition
+      this.lastScrollPosition = currentScrollPosition
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.onScroll)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
+  }
+}
+</script>
 <style>
+.navbar.navbar--hidden {
+  box-shadow: none;
+  transform: translate3d(0, -100%, 0);
+  top:0px !important;
+}
   nav{
     border: 1px solid #555555;
     padding: 0 20px!important;
     top: 25px !important;
     background-color: #FFFFFF;
+    transition: 0.1s all ease-out;
   }
   .nav-brand{
     border-right: 1px solid #555555;
