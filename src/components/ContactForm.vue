@@ -158,11 +158,9 @@ export default {
   .contact-text p{
     margin: 2px 0;
   }
-@media only screen and (max-width: 1272px) {
+@media screen and (max-device-width: 1281px) {
     .left{
-      padding: 30px !important;
-      /* padding: 0px !important; */
-      
+      padding: 30px !important; 
     }
     .form{
       
