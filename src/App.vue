@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    
-      <Navbar class=""/>
-
+    <Navbar/>
     <transition name="fade">
       <router-view class="view-1"/>
     </transition>
@@ -56,20 +54,20 @@ button{
 }
 .fade-enter{
   opacity: 0;
-transform: translateY(150px);
+transform: translateX(150px);
 }
 .fade-enter-to{
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateX(0px);
 }
 .fade-leave{
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateX(0px);
 
 }
 
 .fade-leave-to{
     opacity: 0;
-  transform: translateY(-150px);
+  transform: translateX(-150px);
 }
 </style>
