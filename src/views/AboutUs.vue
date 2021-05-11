@@ -7,7 +7,7 @@
     </div>
       </div>
   <div class="row">
-      <div class="about-us-content col-lg-12">
+      <div class="about-us-content col-lg-10">
         <h3>MNS-GRADNJA DOO</h3>
         <p>Naš tim opisuje profesionalna usluga i zagarantovan kvalitet.</p>
         <p>Pouzdani smo partneri u malim kao i velikim projektima.</p>

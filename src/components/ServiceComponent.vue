@@ -30,10 +30,10 @@
                 <p>gluphicon</p>
             </div>
             <div class="title">
-                <h3>Krečenje</h3>
+                <h3>Molersko Farbarski radovi</h3>
             </div>
             <div class="description">
-                <p>Krečenje planiranje od A-Z, savetovanje troškova i primena</p>
+                <p>Molersko Farbarski radovi planiranje od A-Z, savetovanje troškova i primena</p>
             </div>
         </router-link>
     </div>

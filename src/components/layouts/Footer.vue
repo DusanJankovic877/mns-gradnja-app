@@ -11,7 +11,7 @@
                 <li>Alekse Šantića</li>
                 <li>21000 Novi Sad</li>
                 <li>m.ns.gradnja@gmail.com</li>
-                <li>+381 63 78 70 551</li>
+                <li>+381 63 321 125</li>
               </ul>
               </div>
             </div>
