@@ -4,6 +4,9 @@ import Home from '../views/Home.vue'
 import AboutUs from '../views/AboutUs.vue'
 import Services from '../views/Services.vue'
 import Contact from '../views/Contact.vue'
+import Plastering from '../views/Plastering.vue'
+import Liner from '../views/Liner.vue'
+import Painting from '../views/Painting.vue'
 
 
 Vue.use(VueRouter)
@@ -30,7 +33,25 @@ const routes = [
     name: 'contact',
     component: Contact
 
-  }
+  },
+  {
+    path: '/plastering',
+    name: 'plastering',
+    component: Plastering
+
+  },
+  {
+    path: '/liner',
+    name: 'liner',
+    component: Liner
+
+  },
+  {
+    path: '/painting',
+    name: 'painting',
+    component: Painting
+
+  },
 ]
 
 const router = new VueRouter({

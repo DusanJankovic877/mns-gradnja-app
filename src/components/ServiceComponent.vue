@@ -1,56 +1,41 @@
 <template>
 
     <div class="row services-row">
-        <div class="malter col-lg-4">
+        <router-link class="malter col-lg-4" to="/plastering">
             <div class="glyphicon">
-            <p>gluphicon</p>
+                <p>gluphicon</p>
             </div>
             <div class="title">
-            <h3>Mašinski Malter</h3>
+                <h3>Mašinski malter i gletovanje</h3>
             </div>
             <div class="description">
-            <p>Malterisanje od A-Z Planiranje, savetovanje troškova i primena</p>
+                <p>Malterisanje od A-Z Planiranje, savetovanje troškova i primena</p>
             </div>
-        </div>
-        <div class="malter col-lg-4">
+        </router-link>
+
+        <router-link class="malter col-lg-4" to="/liner">
             <div class="glyphicon">
-            <p>gluphicon</p>
+                <p>gluphicon</p>
             </div>
             <div class="title">
-            <h3>Košuljica</h3>
+                <h3>Izrada košuljice</h3>
             </div>
             <div class="description">
-            <p>Košuljica planiranje od A-Z , savetovanje troškova i primena</p>
+                <p>Košuljica planiranje od A-Z , savetovanje troškova i primena</p>
             </div>
-        </div>
-        <div class="malter service3 col-lg-4">
+        </router-link>
+          
+        <router-link class="malter col-lg-4" to="/painting">
             <div class="glyphicon">
-            <p>gluphicon</p>
+                <p>gluphicon</p>
             </div>
             <div class="title">
-            <h3>Mašinsko gletovanje</h3>
+                <h3>Krečenje</h3>
             </div>
             <div class="description">
-            <p>Gletovanje planiranje od A-Z, savetovanje troškova i primena</p>
+                <p>Krečenje planiranje od A-Z, savetovanje troškova i primena</p>
             </div>
-  
-        </div>       
-        <div class="malter col-lg-4">
-            <div class="glyphicon">
-            <p>gluphicon</p>
-            </div>
-            <div class="title">
-            <h3>Krečenje</h3>
-            </div>
-            <div class="description">
-            <p>Krečenje planiranje od A-Z, savetovanje troškova i primena</p>
-            </div>
-  
-        </div>     
-        
-        
-   
-    
+        </router-link>
     </div>
 </template>
 <script>
@@ -67,8 +52,18 @@ export default {
       
     border: 1px solid #555555 !important;
     /* margin: 25px 50px; */
+    
     padding:70px 70px !important;
     }
+    .malter{
+        color: #2C3E50 !important;
+        
+    }
+    .malter:hover{
+       background: rgba(0, 0, 0, 0.1) !important;
+       text-decoration: none !important;
+    }
+
     .malter:first-child{
         border-right: 0 !important;
     }
@@ -77,7 +72,7 @@ export default {
     }
 
     .malter:last-child{
-        border-top: 0 !important;
+        border-left: 0 !important;
     }
 @media only screen and (max-width: 769px) {
     .malter:last-child{
