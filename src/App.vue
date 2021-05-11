@@ -54,20 +54,15 @@ button{
 }
 .fade-enter{
   opacity: 0;
-transform: translateX(150px);
 }
 .fade-enter-to{
   opacity: 1;
-  transform: translateX(0px);
 }
 .fade-leave{
   opacity: 1;
-  transform: translateX(0px);
-
 }
 
 .fade-leave-to{
     opacity: 0;
-  transform: translateX(-150px);
 }
 </style>
