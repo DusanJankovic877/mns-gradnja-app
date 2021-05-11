@@ -24,6 +24,11 @@ export default {
   src: local("Barlow-Regular"),
    url(./fonts/Barlow-Regular.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Barlow-Medium";
+  src: local("Barlow-Medium"),
+   url(./fonts/Barlow-Medium.ttf) format("truetype");
+}
 #app {
   font-family: 'Barlow-Regular', sans-serif !important;
   -webkit-font-smoothing: antialiased;
@@ -33,6 +38,9 @@ export default {
 }
 .view-1{
   margin-top:115px !important;
+}
+h2, h3{
+  font-family: 'Barlow-Medium', sans-serif !important;
 }
 button{
   border-radius: 0 !important;

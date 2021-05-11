@@ -1,6 +1,6 @@
 <template>
   <div class="image-container">
-    <b-img src="construction-site.jpg" fluid alt="Responsive image"></b-img> 
+    <b-img src="building.jpg" fluid alt="Responsive image"></b-img> 
     <div class="image-card col-sm-4">
       <div class="row">
         <div class="text">
@@ -32,6 +32,9 @@ export default {
   position: relative;
   display: inline-block;
   margin-top: 20px;
+  max-height: 834px !important;
+  overflow: hidden;
+
 }
 .image-card{
   top:15%;
@@ -43,7 +46,6 @@ export default {
   text-align: left !important;
     
 }
-
 
 .text{
   padding: 39px;

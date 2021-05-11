@@ -14,18 +14,24 @@
     >
         <!-- Text slides with image -->
         <b-carousel-slide
-          caption="MNS GRADNJA DOO"
-          img-src="https://picsum.photos/1024/480/?image=52"
+          img-src="malter.jpg"
         >
+        <div class="carousel-text">
+
+        <h2>MNS GRADNJA DOO</h2>
         <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
+        </div>
         </b-carousel-slide>
 
         <!-- Slides with custom text -->
         <b-carousel-slide
-          caption="MNS GRADNJA DOO"
-          img-src="https://picsum.photos/1024/480/?image=54"
+          img-src="silouetes.jpg"
         >
-          <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
+        <div class="carousel-text">
+        <h2>MNS GRADNJA DOO</h2>
+          <h4>Sve iz jednog izvora! Zalažemo se za tačnost, kvalitet i pouzdanost.</h4>
+
+        </div>
         </b-carousel-slide>
 
     </b-carousel>
@@ -63,6 +69,10 @@ export default {
 .carousel-caption{
     top: 61% !important;
     transform: translateY(-50%) !important;
+}
+.carousel-text{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
