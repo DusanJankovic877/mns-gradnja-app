@@ -86,6 +86,7 @@ export default {
     methods: {
       ...mapActions(['getContactFormData']),
        async handleSubmit() {
+         
           await this.getContactFormData(this.form).then(response => {
         if(response){
         
@@ -95,7 +96,6 @@ export default {
          this.errors.telephone = '';
          }
           }).catch(error => {
-
             if(error.response.data.errors.email != undefined){
               this.errors.email = error.response.data.errors.email[0]
             }
