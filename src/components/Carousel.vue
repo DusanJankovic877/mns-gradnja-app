@@ -7,30 +7,29 @@
         fade
         controls
         indicators
-        background="#ababab"
         style="margin-top: 20px; text-shadow: 1px 1px 2px #333;"
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
     >
         <!-- Text slides with image -->
         <b-carousel-slide
+        content-visible-up="sm"
           img-src="malter.jpg"
         >
         <div class="carousel-text">
+          <h1>MNS-Gradnja DOO</h1>
+          <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
 
-        <h2>MNS GRADNJA DOO</h2>
-        <h4>Izgradnja kod nas znači porodična gradnja za budućnost. Oni koji grade budućnost grade pouzdano, visoko, kvalitetno i pametno.</h4>
         </div>
         </b-carousel-slide>
 
-        <!-- Slides with custom text -->
         <b-carousel-slide
           img-src="silouetes.jpg"
+          content-visible-up="sm"
         >
         <div class="carousel-text">
-        <h2>MNS GRADNJA DOO</h2>
+          <h1>MNS-Gradnja DOO</h1>
           <h4>Sve iz jednog izvora! Zalažemo se za tačnost, kvalitet i pouzdanost.</h4>
-
         </div>
         </b-carousel-slide>
 
@@ -56,23 +55,32 @@ export default {
 }
 </script>
 <style>
+
 .carousel-caption h4{
   font-size: 20px;
 }
 #carousel-1{
   margin-bottom: 25px !important;
+
+}
+.carousel-inner{
+    background: rgba(0, 0, 0, 0.5) !important;
+
 }
 .carousel-inner{
     max-height: 800px !important;
-
 }
 .carousel-caption{
     top: 61% !important;
     transform: translateY(-50%) !important;
+    margin-top: 0px;
 }
 .carousel-text{
-  background: rgba(0, 0, 0, 0.5);
+  top:0;
   padding: 20px;
+  margin-bottom: 3000px !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

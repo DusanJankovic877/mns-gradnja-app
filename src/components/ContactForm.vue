@@ -159,7 +159,7 @@ export default {
     margin: 2px 0;
   }
 @media screen and (max-device-width: 1281px) {
-    .left{
+    .left .right{
       padding: 30px !important; 
     }
     .form{
