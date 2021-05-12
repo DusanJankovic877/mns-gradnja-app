@@ -5,13 +5,13 @@
         <div class="contact-text col-lg-9">
           <h2>KONTAKTIRAJTE NAS</h2>
           <p>
-            Za upite ili pitanja, koristite obrazac za kontakt ili nas pozovite na +381 63 321 125
+            Za upite ili pitanja, koristite obrazac za kontakt ili nas pozovite na +381 63 78 70 551
           </p>
           <p>M-NS Gradnja DOO</p>
           <p>Alekse Šantića</p>
           <p>21000 Novi Sad</p>
           <p>m.ns.gradnja@gmail.com</p>
-          <p>+381 63 321 125</p>
+          <p>+381 63 78 70 551</p>
         </div>
         </div>
         <div class="right col-lg-8" >
@@ -125,7 +125,7 @@ export default {
 <style>
   .form{
     border: 1px solid #555555;
-    padding-bottom: 25px;
+    margin: 0 auto;
   }
   .left{
     border-right: 1px solid #555555;
@@ -134,7 +134,7 @@ export default {
     text-align: left;
   }
   .right{
-    padding: 50px 0px 0px 300px;
+    padding: 50px 0px 0px 0px;
     
   }
   .contact-form input, textarea{
@@ -143,7 +143,7 @@ export default {
     border-bottom: 1px solid #555555 !important;
   }
   form{
-    margin-left: 150px;
+    margin: 0 auto;
   }
   .contact-form-button{
     background-color: #C9C9C9;
@@ -159,28 +159,21 @@ export default {
     margin: 2px 0;
   }
 @media screen and (max-device-width: 1281px) {
-    .left .right{
+    .left {
       padding: 30px !important; 
     }
     .form{
-      
       padding-bottom: 0;
     }
   }
 @media only screen and (max-width: 1024px) {
-  form{
-    margin-left:60px;
-    
-  }
   .left{
     padding: 50px;
     padding-left: 0px !important;
   }
 }
 @media only screen and (max-width: 769px) {
-  form{
-    margin-left:0px;
-  }
+
   .image-card {
       top:4%;
       left:4%;
@@ -190,12 +183,14 @@ export default {
   }
 }
 @media only screen and (max-width: 600px) {
-  form{
-    margin-left:00px;
-  }
+
   .left{
     padding-top: 50px;
     padding-left: 0px !important;
+  }
+  .right{
+    padding-left: 0px !important;
+    
   }
 }
 </style>
