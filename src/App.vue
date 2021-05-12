@@ -7,7 +7,7 @@
     <Footer/>
     <!-- 
       Mašinski malter, gletovanje,izrada košuljice, košuljica, molersko farbarski radovi, 
-      moleraj,farbanje, krečenje,MNS'Gradnja,gradjevina,usluge, gradjevinske usluge
+      moleraj,farbanje, krečenje,MNS-Gradnja,gradjevina,usluge, gradjevinske usluge, novi sad
      -->
   </div>
 </template>
