@@ -5,6 +5,10 @@
       <router-view class="view-1"/>
     </transition>
     <Footer/>
+    <!-- 
+      Mašinski malter, gletovanje,izrada košuljice, košuljica, molersko farbarski radovi, 
+      moleraj,farbanje, krečenje,MNS'Gradnja,gradjevina,usluge, gradjevinske usluge
+     -->
   </div>
 </template>
 <script>

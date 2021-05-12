@@ -14,8 +14,7 @@
         <p>Vršimo usluge svih završnih građevinskih radova u dogovorenom roku.</p>
         <p>Usluge koje pružamo:</p>
         <ul>
-          <li>Mašinski Malter</li>
-          <li>Mašinsko gletovanje</li>
+          <li>Mašinski malter i gletovanje</li>
           <li>Košuljica</li>
           <li>Krečenje</li>
         </ul>
