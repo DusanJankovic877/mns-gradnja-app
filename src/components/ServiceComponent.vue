@@ -1,9 +1,22 @@
 <template>
 
     <div class="row services-row">
+        <router-link class="malter col-lg-4" to="/liner">
+            <div class="glyphicon">
+                <img src="kosuljica.svg" alt="" style="height: 120px; margin-bottom: 30px; border-radius: 5em;">
+            </div>
+            <div class="title">
+                <h3>Izrada košuljice</h3>
+            </div>
+            <div class="description">
+                <p>Košuljica planiranje od A-Z , savetovanje troškova i primena</p>
+            </div>
+        </router-link>
+
         <router-link class="malter col-lg-4" to="/plastering">
             <div class="glyphicon">
-                <p>gluphicon</p>
+  
+                <img src="gletalica.svg" alt="" style="height: 120px; margin-bottom: 30px; border-radius: 4em;">
             </div>
             <div class="title">
                 <h3>Mašinski malter i gletovanje</h3>
@@ -13,27 +26,17 @@
             </div>
         </router-link>
 
-        <router-link class="malter col-lg-4" to="/liner">
-            <div class="glyphicon">
-                <p>gluphicon</p>
-            </div>
-            <div class="title">
-                <h3>Izrada košuljice</h3>
-            </div>
-            <div class="description">
-                <p>Košuljica planiranje od A-Z , savetovanje troškova i primena</p>
-            </div>
-        </router-link>
+
           
         <router-link class="malter col-lg-4" to="/painting">
             <div class="glyphicon">
-                <p>gluphicon</p>
+                <img src="valjak.svg" alt="" style="height: 120px; margin-bottom: 30px; border-radius: 5em;">
             </div>
             <div class="title">
                 <h3>Molersko Farbarski radovi</h3>
             </div>
             <div class="description">
-                <p>Molersko Farbarski radovi planiranje od A-Z, savetovanje troškova i primena</p>
+                <p>Molersko farbarski radovi planiranje od A-Z, savetovanje troškova i primena</p>
             </div>
         </router-link>
     </div>
