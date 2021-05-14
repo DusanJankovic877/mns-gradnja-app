@@ -69,7 +69,7 @@ button{
   margin-top: 190px !important;
 
 }
-/* TRANSITION */
+/*VIEW TRANSITION */
 .fade-enter-active, .fade-leave-active {
   transition: opacity .6s ease-in-out, transform .6s ease;
 }
