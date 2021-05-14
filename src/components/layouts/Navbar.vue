@@ -11,8 +11,8 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <router-link class="nav-link" to="/" @click.native="scrollToTop">Početna</router-link>
-        <router-link class="nav-link" to="/about" @click.native="scrollToTop">O nama</router-link>
+        <router-link class="nav-link" to="/">Početna</router-link>
+        <router-link class="nav-link" to="/about">O nama</router-link>
         <router-link class="nav-link" to="/services">Usluge</router-link>
         <router-link class="nav-link" to="/contact">Kontakt</router-link>
       </b-navbar-nav>
@@ -30,9 +30,6 @@ export default {
     }
   },
   methods:{
-    scrollToTop() {
-      // window.scrollTo(0,0);
-    },
     onScroll () {
       const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
       if (currentScrollPosition < 0) {
