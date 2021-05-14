@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <transition name="fade-in" appear>
+    <transition name="fade-in">
     <div>
       <Navbar/>
       <transition name="fade">
@@ -23,17 +23,7 @@ export default {
   components:{
     Navbar,
     Footer
-  },
-  // data() {
-  //   return {
-  //     show: false
-  //   }
-  // },
-  // mounted() {
-  //   this.show = true; // might need this.$nextTick
-  // }
-
-
+  }
 }
 </script>
 <style>
@@ -63,7 +53,6 @@ h2, h3{
 button{
   border-radius: 0 !important;
   border: none;
-  font-family: "Barlow-Regular";
 }
 .space-above-view{
   margin-top: 190px !important;

@@ -51,6 +51,7 @@
 
     </div>
 
+    <router-link class="back-to-services btn btn-secondary" to="/services">Nazad na usluge</router-link>
 
 </div>
 </template>
@@ -72,5 +73,10 @@
 }
 .about-liner-content p{
   margin-bottom: 40px ;
+}
+.back-to-services{
+    border-radius: 0 !important;
+  border: none;
+
 }
 </style>
