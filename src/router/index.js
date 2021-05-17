@@ -56,6 +56,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
+  
   scrollBehavior () {
     return new Promise((resolve) => {
       setTimeout(() => {
