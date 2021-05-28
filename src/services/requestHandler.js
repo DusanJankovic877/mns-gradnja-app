@@ -5,7 +5,7 @@ export class RequestHandler {
     constructor(){
         
         this.apiClient = axios.create({
-            baseURL: 'https://mnsgradnja.rs/api'
+            baseURL: 'https://api.flowlence.rs/api'
         });
      
     }

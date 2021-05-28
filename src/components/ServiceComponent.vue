@@ -25,9 +25,6 @@
                 <p>Malterisanje od A-Z Planiranje, savetovanje troškova i primena</p>
             </div>
         </router-link>
-
-
-          
         <router-link class="malter col-lg-4" to="/painting">
             <div class="glyphicon">
                 <img src="valjak.svg" alt="" style="height: 120px; margin-bottom: 30px; border-radius: 5em;">

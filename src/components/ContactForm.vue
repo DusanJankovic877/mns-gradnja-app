@@ -2,7 +2,7 @@
     <div class="form col-lg-12">
       <div class="row">
         <div class="left col-lg-4" >
-        <div class="contact-text col-lg-9">
+        <div class="contact-text col-lg-12">
           <h2>KONTAKTIRAJTE NAS</h2>
           <p>
             Za upite ili pitanja, koristite obrazac za kontakt ili nas pozovite na +381 63 78 70 551
@@ -129,9 +129,9 @@ export default {
   }
   .left{
     border-right: 1px solid #555555;
-    padding-top: 50px;
-    padding-left: 100px !important;
+    padding-top: 50px !important;
     text-align: left;
+    margin: 0 auto !important;
   }
   .right{
     padding: 50px 0px 0px 0px;
@@ -160,7 +160,8 @@ export default {
   }
 @media screen and (max-device-width: 1281px) {
     .left {
-      padding: 30px !important; 
+      padding: 0 !important;
+      /* padding: 30px !important;  */
     }
     .form{
       padding-bottom: 0;
@@ -168,7 +169,7 @@ export default {
   }
 @media only screen and (max-width: 1024px) {
   .left{
-    padding: 50px;
+    padding: 0px !important;
     padding-left: 0px !important;
   }
 }
@@ -190,7 +191,6 @@ export default {
   }
   .right{
     padding-left: 0px !important;
-    
   }
 }
 </style>
