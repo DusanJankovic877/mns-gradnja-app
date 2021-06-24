@@ -5,13 +5,13 @@
         <div class="contact-text col-lg-12">
           <h2>KONTAKTIRAJTE NAS</h2>
           <p>
-            Za upite ili pitanja, koristite obrazac za kontakt ili nas pozovite na +381 63 78 70 551
+            Za upite ili pitanja, koristite obrazac za kontakt ili nas pozovite na +381 66 800 86 98
           </p>
           <p>M-NS Gradnja DOO</p>
           <p>Alekse Šantića</p>
           <p>21000 Novi Sad</p>
           <p>m.ns.gradnja@gmail.com</p>
-          <p>+381 63 78 70 551</p>
+          <p>+381 66 800 86 98</p>
         </div>
         </div>
         <div class="right col-lg-8" >

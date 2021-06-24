@@ -5,7 +5,7 @@
                 <div class="text-div col-lg-12">
                         <h1>KONTAKTIRAJTE NAS</h1>
                         <h4>
-                            Za upite, koristite naš kontakt obrazac ili nas pozovite direktno na +381 63 78 70 551
+                            Za upite, koristite naš kontakt obrazac ili nas pozovite direktno na +381 66 800 86 98
                         </h4>
                 </div>
             </div>
